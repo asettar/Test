@@ -12,7 +12,6 @@ body {
     display: grid;
     grid-template-columns: 70% 30%;
     gap: 30px;
-    border: 5px solid red;
 }
 
 
@@ -21,12 +20,14 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 40px
 }
 
 .two-cards{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
     /* border: 2px solid green; */
 }
 
@@ -36,7 +37,9 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
-    border: 2px solid blue;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 400px;
 }
 
 
@@ -46,20 +49,62 @@ body {
     gap: 30px;
     align-items: center;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 
 .name {
     display: flex;
     flex-direction :column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid red;
+    justify-content: flex-start;
     margin-top: 10px;
+    height: 35px;
 }
+.name h2 {
+    margin-bottom: -70px;
+}
+.card-center {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+.card-p {
+    padding: 0 20px;
+    line-height: 20px;
+}
+
 .card-head div img {
     width: 50px;
-    height: 50px;
+    height: 30px;
     /* width: 2vw; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 50%;
+}
+
+#kira {
+    height: 840px;
+}
+
+#patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+
+#daniel {
+    background-color: hsl(263, 55%, 52%);
+    color : white;
+}
+
+#jonathan {
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+}
+
+/* - Purple 50: hsl(260, 100%, 95%)
+- Purple 300: hsl(264, 82%, 80%)
+- Purple 500: hsl(263, 55%, 52%) */
+
+@media screen and(max-width : 700px) {
+
 }
